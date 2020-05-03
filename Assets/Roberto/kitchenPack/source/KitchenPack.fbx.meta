@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: d565874f319af2d43ba0f5e8bae20354
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bowl
+    100002: Clutery
+    100004: Cutboard_Plastic
+    100006: Cutboard_Wood
+    100008: Fork_Final
+    100010: Glas_Standard
+    100012: Glas_Wine
+    100014: //RootNode
+    100016: Knife_Food
+    100018: Knife_Large
+    100020: Knife_Sharpener
+    100022: Ladle
+    100024: Pan_01
+    100026: Plade
+    100028: Pot
+    100030: Pot_01
+    100032: Pot_01 1
+    100034: Pot_01_Top
+    100036: Pot_01_Top 1
+    100038: Pot_Open
+    100040: Spoon
+    100042: Whisk
+    400000: Bowl
+    400002: Clutery
+    400004: Cutboard_Plastic
+    400006: Cutboard_Wood
+    400008: Fork_Final
+    400010: Glas_Standard
+    400012: Glas_Wine
+    400014: //RootNode
+    400016: Knife_Food
+    400018: Knife_Large
+    400020: Knife_Sharpener
+    400022: Ladle
+    400024: Pan_01
+    400026: Plade
+    400028: Pot
+    400030: Pot_01
+    400032: Pot_01 1
+    400034: Pot_01_Top
+    400036: Pot_01_Top 1
+    400038: Pot_Open
+    400040: Spoon
+    400042: Whisk
+    2100000: Cutboard_Plastic_Mat
+    2100002: Pan_Mat
+    2100004: Cutboard_Wood_Mat
+    2100006: Plade_Mat
+    2100008: phong2
+    2100010: Pot_Mat
+    2100012: Glass_Mat
+    2100014: Knife_Large_Mat
+    2100016: Knife_Sharpener_Mat1
+    2100018: Clutery_Mat
+    2300000: Bowl
+    2300002: Cutboard_Plastic
+    2300004: Cutboard_Wood
+    2300006: Fork_Final
+    2300008: Glas_Standard
+    2300010: Glas_Wine
+    2300012: Knife_Food
+    2300014: Knife_Large
+    2300016: Knife_Sharpener
+    2300018: Ladle
+    2300020: Pan_01
+    2300022: Plade
+    2300024: Pot_01
+    2300026: Pot_01 1
+    2300028: Pot_01_Top
+    2300030: Pot_01_Top 1
+    2300032: Spoon
+    2300034: Whisk
+    3300000: Bowl
+    3300002: Cutboard_Plastic
+    3300004: Cutboard_Wood
+    3300006: Fork_Final
+    3300008: Glas_Standard
+    3300010: Glas_Wine
+    3300012: Knife_Food
+    3300014: Knife_Large
+    3300016: Knife_Sharpener
+    3300018: Ladle
+    3300020: Pan_01
+    3300022: Plade
+    3300024: Pot_01
+    3300026: Pot_01 1
+    3300028: Pot_01_Top
+    3300030: Pot_01_Top 1
+    3300032: Spoon
+    3300034: Whisk
+    4300000: Cutboard_Plastic
+    4300002: Pan_01
+    4300004: Cutboard_Wood
+    4300006: Plade
+    4300008: Bowl
+    4300010: Pot_01
+    4300012: Pot_01_Top
+    4300014: Pot_01
+    4300016: Pot_01_Top
+    4300018: Glas_Standard
+    4300020: Glas_Wine
+    4300022: Knife_Large
+    4300024: Knife_Sharpener
+    4300026: Ladle
+    4300028: Whisk
+    4300030: Knife_Food
+    4300032: Spoon
+    4300034: Fork_Final
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

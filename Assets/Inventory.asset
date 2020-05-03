@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba8959e16ff5c747958d03cde5104ed, type: 3}
+  m_Name: Inventory
+  m_EditorClassIdentifier: 
+  bullets:
+  - {fileID: 1220714521845769277, guid: e3cf79b8926458246b2da014812f503b, type: 3}
+  - {fileID: 1220714521845769277, guid: 988e4492283465c4192d0b534de0b011, type: 3}
+  - {fileID: 8835604160944157000, guid: 488b6a21fd837444c95b88e1ab8806c4, type: 3}
+  - {fileID: 1853887504775597176, guid: fa8ed00a7d1a0504ea4be5fb8a1098ca, type: 3}
+  - {fileID: 5484082128154185027, guid: 00338f7f041cb684fb6bdb29013be7fc, type: 3}
+  - {fileID: 3737374034510585745, guid: b7a2a8b2a14e4664598d43cf748bfb0d, type: 3}
+  - {fileID: 1220714521845769277, guid: 2b7c5347ab323d741bed5d74b94227c9, type: 3}
+  - {fileID: 1220714521845769277, guid: febf71bd532a432428b79d80623f0de1, type: 3}

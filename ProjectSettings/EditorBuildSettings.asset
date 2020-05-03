@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: 19aec4350f9c5dd4ead1018a7b894a0d
+  - enabled: 1
+    path: Assets/Scenes/SelectorModeScene.unity
+    guid: 985d05f372b51964abc4a789acadd725
+  - enabled: 1
+    path: Assets/Scenes/PBMode/PBController.unity
+    guid: 9f9046f2fa4fe2547bad7f2187c5e585
+  - enabled: 1
+    path: Assets/Scenes/PBMode/PBExplication.unity
+    guid: b10f945c4ea1aa5489f11ad9919b1738
+  - enabled: 1
+    path: Assets/Scenes/PBMode/PBResults.unity
+    guid: 93b1e3ab77c57e945b063d1fc94ca820
+  - enabled: 1
+    path: Assets/Scenes/PBMode/PBSelectorMode.unity
+    guid: 29c9900d2696eb84f926129fe79459ad
+  - enabled: 1
+    path: Assets/Scenes/PBMode/PBSingle.unity
+    guid: ded22a34bfeb7444a988ac9e3cc69924
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVBossBattle.unity
+    guid: 85b990ae71f09d444b2ed2691e0aead2
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVBossBattle2.unity
+    guid: 0776760f263d6d2438c5edf4a8005397
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVBossIntro.unity
+    guid: 619a1cfd4e55621479a29492189fc75d
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVController.unity
+    guid: 8ff9ba3aa3a9f8d408486dc3c1a71b33
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVEnd.unity
+    guid: b9dd941083d31c44fbb2528000ac460d
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/Adventure.unity
+    guid: 23f2705877e78724ebdfd2ebcd3b0626
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/Adventure2.unity
+    guid: 339957138bd5eec48af1259985c14097
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVExplication.unity
+    guid: acba944af11f0a44e978771041b76763
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVInsertPlayerName.unity
+    guid: ed0ab6f6453b733418b15b04aa94353b
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVIntro.unity
+    guid: 2d36d03eeafeb0a46bc34ade1700787d
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVRanking.unity
+    guid: beb498c72f3ba364d87f024bfe2c2e38
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/ADVSurfing.unity
+    guid: 1f0c73f014bb0a44482e41464a6fd544
+  - enabled: 1
+    path: Assets/Scenes/SurvivalMode/SurvivalExplication.unity
+    guid: 270cc9ca82af8b640ae66cb8945f277f
+  - enabled: 1
+    path: Assets/Scenes/SurvivalMode/SurvivalMode.unity
+    guid: b4a80048389da954396851e606098a29
+  - enabled: 1
+    path: Assets/Scenes/TDMode/TDController.unity
+    guid: 0db78807d98042045911213dbcfd6d9e
+  - enabled: 1
+    path: Assets/Scenes/TDMode/TDExplication.unity
+    guid: 7eaa5a63ba37e0840984932c93fc0c6b
+  - enabled: 1
+    path: Assets/Scenes/TDMode/TDResults.unity
+    guid: 2645644a25bbd7e44b97749fe056f510
+  - enabled: 1
+    path: Assets/Scenes/TDMode/TDSelectorMode.unity
+    guid: 4017dc3f4cae5ff458271ff440492cde
+  - enabled: 1
+    path: Assets/Scenes/TDMode/TDSingle.unity
+    guid: dd18914f6a516174f83dc0f7ae1faf29
+  - enabled: 1
+    path: Assets/Scenes/SurvivalMode/SurvivalRanking.unity
+    guid: 9525a93662809e9439d57603a4585cc6
+  - enabled: 1
+    path: Assets/Scenes/SurvivalMode/SurvivalController.unity
+    guid: 16086aeee4d2d4e4290b9535d065a3f1
+  - enabled: 1
+    path: Assets/Scenes/AdventureMode/SVInsertPlayerName.unity
+    guid: d10433587d3dcae41be9cc3b5f5c9f8b
+  m_configObjects: {}

@@ -1,0 +1,5 @@
+real size 375 x 44
+
+first health bar X 416.793 pxÅ@  YÅ@87.011 px
+
+second health bar X416.793 px  Y 173.116 px

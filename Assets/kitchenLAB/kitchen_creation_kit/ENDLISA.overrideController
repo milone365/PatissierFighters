@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ENDLISA
+  m_Controller: {fileID: 9100000, guid: 171d714c9c6d5974cad2128377cfe159, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3367ef5cbe40df844a2f320cdd9ed2f4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3367ef5cbe40df844a2f320cdd9ed2f4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 48f73e32adc79cb45ae197619b596435, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: d96678e73b19bb34eadc50849f9a8baa, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: e2692f333ed9e3549b8167262f78118f, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 7541fef66eeac30488257d044ad83612, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: de55802dc56cde94b9b8f1cf9ffeae14, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: d96678e73b19bb34eadc50849f9a8baa, type: 3}

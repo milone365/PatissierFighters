@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c111f6bb8832804e9468636e514b9fc, type: 3}
+  m_Name: wide
+  m_EditorClassIdentifier: 
+  speed: 10
+  health: 3
+  reactionTime: 2.5
+  attack: 1
+  force: 50
+  patrollingTime: 5
+  patrollingCounter: 5
+  patrollPoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  startPosition: {x: 0, y: 0, z: 0}
+  startRotation: {x: 0, y: 0, z: 0, w: 1}
+  haveBall: 0
+  chaseRange: 75
+  attackRange: 4.5
+  attackingCounter: 1.3
+  attackingTime: 1.3

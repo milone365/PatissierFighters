@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 96d71ef845b5dc042aad8aa8cca91016
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Blip1
+    100002: DrillBase
+    100004: DrillBitLow
+    100006: DrillBody
+    100008: DrillHandle1
+    100010: DrillHeadLow
+    100012: DrillNeck1
+    100014: DrillPlug1
+    100016: FrontButton
+    100018: FrontGripHandle2
+    100020: FrontGripTabs1
+    100022: FrontGripTop1
+    100024: Knob1
+    100026: Midcyllinder
+    100028: //RootNode
+    100030: Pistons
+    100032: Trigger1
+    400000: Blip1
+    400002: DrillBase
+    400004: DrillBitLow
+    400006: DrillBody
+    400008: DrillHandle1
+    400010: DrillHeadLow
+    400012: DrillNeck1
+    400014: DrillPlug1
+    400016: FrontButton
+    400018: FrontGripHandle2
+    400020: FrontGripTabs1
+    400022: FrontGripTop1
+    400024: Knob1
+    400026: Midcyllinder
+    400028: //RootNode
+    400030: Pistons
+    400032: Trigger1
+    2100000: DrillBit
+    2100002: DrillHead1
+    2100004: DrillNeck2
+    2100006: FrontHandle
+    2100008: FrontGrip
+    2100010: FrontTabs
+    2100012: FrontButtons
+    2100014: Body
+    2100016: Knob2
+    2100018: Pistons1
+    2100020: Cylinder
+    2100022: Base
+    2100024: Blip2
+    2100026: Handle
+    2100028: Trigger2
+    2100030: Plug
+    2300000: Blip1
+    2300002: DrillBase
+    2300004: DrillBitLow
+    2300006: DrillBody
+    2300008: DrillHandle1
+    2300010: DrillHeadLow
+    2300012: DrillNeck1
+    2300014: DrillPlug1
+    2300016: FrontButton
+    2300018: FrontGripHandle2
+    2300020: FrontGripTabs1
+    2300022: FrontGripTop1
+    2300024: Knob1
+    2300026: Midcyllinder
+    2300028: Pistons
+    2300030: Trigger1
+    3300000: Blip1
+    3300002: DrillBase
+    3300004: DrillBitLow
+    3300006: DrillBody
+    3300008: DrillHandle1
+    3300010: DrillHeadLow
+    3300012: DrillNeck1
+    3300014: DrillPlug1
+    3300016: FrontButton
+    3300018: FrontGripHandle2
+    3300020: FrontGripTabs1
+    3300022: FrontGripTop1
+    3300024: Knob1
+    3300026: Midcyllinder
+    3300028: Pistons
+    3300030: Trigger1
+    4300000: DrillBitLow
+    4300002: DrillHeadLow
+    4300004: DrillNeck1
+    4300006: FrontGripTop1
+    4300008: FrontGripHandle2
+    4300010: FrontGripTabs1
+    4300012: FrontButton
+    4300014: DrillBody
+    4300016: Knob1
+    4300018: Pistons
+    4300020: Midcyllinder
+    4300022: DrillBase
+    4300024: Blip1
+    4300026: DrillHandle1
+    4300028: Trigger1
+    4300030: DrillPlug1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
