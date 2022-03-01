@@ -11,7 +11,7 @@ namespace td
         bool isTaked = false;
         public Ammonation plin;
         public Ammonation bullet;
-        public BOMB bomb;
+        //public BOMB bomb;
         public Sprite bulleticon; 
         private void OnTriggerEnter(Collider other)
         {
@@ -27,13 +27,13 @@ namespace td
                         break;
                         //バレットを変える
                     case pickUpType.bullet:
-                        TD_BulletSpawner spawner = other.GetComponentInChildren<TD_BulletSpawner>();
-                        spawner.changeBullet(bullet);
-                        spawner.canvas.changeIngredientImage(bulleticon);
+                        //TD_BulletSpawner spawner = other.GetComponentInChildren<TD_BulletSpawner>();
+                        //spawner.changeBullet(bullet);
+                        //spawner.canvas.changeIngredientImage(bulleticon);
                         break;
                         //爆弾追加
                     case pickUpType.bomb:
-                        other.GetComponent<TD_StateManager>().addBomb(bomb);
+                        //other.GetComponent<TD_StateManager>().addBomb(bomb);
                         break;
                 }
 

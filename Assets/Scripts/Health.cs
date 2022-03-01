@@ -5,18 +5,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Networking;
 
-public class Health : NetworkBehaviour
+public class Health : MonoBehaviour
 {
     // 最大体力値を設定
     public const int maxHealth = 100;
     // 死亡フラグ
 	public bool destroyOnDeath;
     //spawnpos
-    NetworkStartPosition[] respawnpositions;
-    // 体力をネットワーク越しに連動させるための設定
-    [SyncVar(hook = "OnChangeHealth")]
+    Transform[] respawnpositions;
     public int currentHealth = maxHealth;
     
     // 体力バーのサイズ（これを拡縮して体力の増減を表現する）
@@ -24,7 +21,7 @@ public class Health : NetworkBehaviour
 
     private void Start()
     {
-        respawnpositions = FindObjectsOfType<NetworkStartPosition>();
+       // respawnpositions = FindObjectsOfType<NetworkStartPosition>();
     }
     /// <summary>
     /// ダメージ処理
@@ -32,11 +29,7 @@ public class Health : NetworkBehaviour
     /// <param name="amount">与えられたダメージ</param>
     public void TakeDammage(int amount)
     {
-        // サーバーでないならば処理しない
-        if (!isServer)
-        {
-            return;
-        }
+        
         // 体力を減らす
         currentHealth -= amount;
         // 体力がなくなっていたら
@@ -51,7 +44,10 @@ public class Health : NetworkBehaviour
             else
             {
                 currentHealth = maxHealth;
-                RpcRespawn();
+                int rnd = Random.Range(0, respawnpositions.Length);
+                Vector3 point = respawnpositions[rnd].transform.position;
+                // 初期位置に戻す
+                transform.position = point;
             }
         }
        /* // 体力バーを増減させる
@@ -69,19 +65,4 @@ public class Health : NetworkBehaviour
        /* healthBar.sizeDelta = new Vector2(health, healthBar.sizeDelta.y);*/
     }
 
-    /// <summary>
-    /// クライアント側で再生成の処理を行う
-    /// </summary>
-    [ClientRpc]
-    private void RpcRespawn()
-    {
-        // クライアント大賞
-        if (isLocalPlayer)
-        {
-            int rnd = Random.Range(0, respawnpositions.Length);
-            Vector3 point = respawnpositions[rnd].transform.position;
-            // 初期位置に戻す
-            transform.position = point;
-        }
-    }
 }

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class EnemySpawner : NetworkBehaviour 
+public class EnemySpawner : MonoBehaviour 
 {
     // 敵のキャラプレハブ
     public GameObject enemyPrefab;
@@ -16,7 +16,7 @@ public class EnemySpawner : NetworkBehaviour
     /// <summary>
     /// サーバー開始時に呼び出される初期化処理
     /// </summary>
-    public override void OnStartServer()
+    /*public override void OnStartServer()
     {
         // 敵の総数分繰り返しの処理を行う
         for (int i=0; i < numberOfEnemies; i++)
@@ -36,5 +36,5 @@ public class EnemySpawner : NetworkBehaviour
             // サーバーに敵の生成情報を送る
             NetworkServer.Spawn(enemy);
         }
-    }
+    }*/
 }

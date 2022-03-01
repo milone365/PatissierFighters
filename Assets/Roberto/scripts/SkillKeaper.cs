@@ -10,8 +10,8 @@ public class SkillKeaper : MonoBehaviour
     public GameObject weaponModel;
     public Ammonation specialWeapon;
     static int manaPoint = 0;
-    TD_StateManager statemanager;
-    TD_BulletSpawner spawner;
+    //TD_StateManager statemanager;
+    //TD_BulletSpawner spawner;
     ParticleSystem electricity;
     Ammonation plin;
     [SerializeField]
@@ -21,8 +21,8 @@ public class SkillKeaper : MonoBehaviour
     public ParticleSystem aura;
     void Start()
     {
-        statemanager = GetComponent<TD_StateManager>();
-        spawner = GetComponentInChildren<TD_BulletSpawner>();
+        //statemanager = GetComponent<TD_StateManager>();
+        //spawner = GetComponentInChildren<TD_BulletSpawner>();
         plin = new Ammonation();
         
     }
@@ -36,7 +36,7 @@ public class SkillKeaper : MonoBehaviour
         }
         if (Input.GetButtonDown(StaticStrings.R1_key))
         {
-            statemanager.changeBombType();
+            //statemanager.changeBombType();
         }
         if (Input.GetButtonDown(StaticStrings.Circle_key))
         {
@@ -63,14 +63,14 @@ public class SkillKeaper : MonoBehaviour
         if (manaPoint > 99)
         {
             manaPoint = 0;
-            spawner.changeBullet(specialWeapon);
+           // spawner.changeBullet(specialWeapon);
             if (manaImage == null) return;
             manaImage.fillAmount = manaPoint;
             if (aura != null)
                 aura.Play();
             weaponModel.SetActive(false);
             specialWeapon.obj.SetActive(true);
-            spawner.canvas.changeWeaponImage(true);
+            //spawner.canvas.changeWeaponImage(true);
         }
     }
     public void deativeAura()
