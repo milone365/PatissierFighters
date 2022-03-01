@@ -1,4 +1,0 @@
-real size 326 x 168
-
- X 960 px Y 118.811 px
-

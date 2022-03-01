@@ -1,4 +1,0 @@
-real size 116x116 px
-
-X 1579.72 p px Y 213 px
-
